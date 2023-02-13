@@ -1,0 +1,103 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#02041E",
+        "sideBar.background": "#02041E",
+        "activityBar.foreground": "#CFBACD",
+        // "activityBarBadge.background": "#ff0000",
+        "activityBarBadge.foreground": "#CFBACD",
+        "titleBar.activeBackground": "#02041E",
+        "titleBar.border": "#7c00ff",
+        "titleBar.activeForeground": "#A2679D",
+        // "titleBar.inactiveBackground": "#02041E",
+        // "titleBar.inactiveForeground": "#ffffff",
+        "statusBar.background": "#141414",
+        "statusBar.foreground": "#A2679D",
+        // "statusBar.debuggingBackground": "#1e1e1e",
+        // "statusBar.debuggingForeground": "#ffffff",
+        // "statusBar.noFolderBackground": "#1e1e1e",
+        // "statusBar.noFolderForeground": "#ffffff",
+        // "statusBarItem.hoverBackground": "#1e1e1e",
+        // "statusBarItem.prominentBackground": "#1e1e1e",
+        // "statusBarItem.prominentHoverBackground": "#1e1e1e",
+        "statusBarItem.remoteBackground": "#9211E8",
+        "statusBarItem.remoteForeground": "#CFBACD",
+        // "statusBarItem.errorBackground": "#ff0000",
+        // "statusBarItem.errorForeground": "#ffffff",
+        // "statusBarItem.warningBackground": "#ff0000",
+        // "statusBarItem.warningForeground": "#ffffff",
+        // "statusBarItem.infoBackground": "#ff0000",
+        // "statusBarItem.infoForeground": "#ffffff",
+        // "statusBarItem.debuggingBackground": "#ff0000",
+        // "statusBarItem.debuggingForeground": "#ffffff",
+        // "statusBarItem.prominentHoverBackground": "#ff0000",
+        // "statusBarItem.prominentForeground": "#ffffff",
+        "editorGroupHeader.tabsBackground": "#02041E",
+        "editorGroupHeader.tabsBorder": "#7c00ff",
+        "editorGroupHeader.noTabsBackground": "#02041E",
+        "editorGroupHeader.border": "#7c00ff",
+        "editorGroup.border": "#7c00ff",
+        "editorGroup.dropBackground": "#02041E",
+        "editorGroup.emptyBackground": "#1e1e1e",
+        // "editor.lineHighlightBackground": "#54044E",
+        "editor.lineHighlightBorder": "#54044E",
+        "editor.background": "#02041E",
+        "editor.foreground": "#CFBACD",
+        "editorRuler.foreground": "#54044E",
+        "contrastActiveBorder": "#7c00ff",
+        "contrastBorder": "#7c00ff",
+        "panel.border": "#7c00ff",
+        // "tab.border": "#ff0000"
+        //"tab.activeBorder": "#ff0000"
+        "window.activeBorder": "#7c00ff",
+        "terminal.background": "#02041E",
+        "terminal.selectionBackground": "#242424",
+        "terminal.selectionForeground": "#A2679D",
+        "terminalCursor.background": "#9211E8",
+        "terminalCursor.foreground": "#9211E8",
+        "terminal.foreground": "#CFBACD",
+        "terminal.ansiBlack": "#0032AB",
+        "terminal.ansiRed": "#6028A7",
+        "terminal.ansiGreen": "#8C159F",
+        "terminal.ansiYellow": "#A2679D",
+        "terminal.ansiBlue": "#AF0093",
+        "terminal.ansiMagenta": "#CB0084",
+        "terminal.ansiCyan": "#E10072",
+        "terminal.ansiWhite": "#F10060",
+        "terminal.ansiBrightBlack": "#003CCD",
+        "terminal.ansiBrightRed": "#7330C8",
+        "terminal.ansiBrightGreen": "#9E19BE",
+        "terminal.ansiBrightYellow": "#C27CBC",
+        "terminal.ansiBrightBlue": "#D200B0",
+        "terminal.ansiBrightMagenta": "#F4009E",
+        "terminal.ansiBrightCyan": "#F50082",
+        "terminal.ansiBrightWhite": "#FF0073",
+
+
+    },
+    // "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             "name": "Function Declaration",
+    //             "scope": "entity.name.function",
+    //             "settings": {
+    //                 "foreground": "#A2679D"
+    //             }
+    //         },
+    //     ]
+    // },
+    "vscode_custom_css.imports": [
+        "file:///path/to/custom.css",
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.fontFamily": "FIraCode Nerd Font",
+    "editor.rulers": [
+        80
+    ],
+}

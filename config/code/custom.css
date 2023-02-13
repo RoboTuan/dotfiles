@@ -1,0 +1,11 @@
+.monaco-list-rows {
+    font-family: "Kaushan Script";
+}
+
+.editor-group-container {
+    background: transparent !important;
+}
+
+.letterpress {
+    background-image: url(/path/to/image) !important;
+}
