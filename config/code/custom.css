@@ -7,5 +7,6 @@
 }
 
 .letterpress {
+    /* Placeholder — set this to an absolute path locally, do not commit a real one */
     background-image: url(/path/to/image) !important;
 }

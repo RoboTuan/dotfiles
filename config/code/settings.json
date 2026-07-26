@@ -90,7 +90,7 @@
     "editor.fontLigatures": true,
     "editor.inlineSuggest.enabled": true,
     "editor.rulers": [
-        80
+        120
     ],
     "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
     "terminal.integrated.gpuAcceleration": "on",
@@ -110,11 +110,5 @@
     // Cusom css
     "vscode_custom_css.imports": [
         "file://${userHome}/.config/code/custom.css"
-    ],
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": true,
-        "markdown": false
-    }
+    ]
 }
