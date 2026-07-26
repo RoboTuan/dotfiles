@@ -51,10 +51,6 @@
         "editor.background": "#02041E",
         "editor.foreground": "#CFBACD",
         "editorRuler.foreground": "#54044E",
-        "editor.inlineSuggest.enabled": true,
-        "editor.rulers": [
-            80
-        ],
 
         // Window
         "contrastActiveBorder": "#7c00ff",
@@ -86,10 +82,18 @@
         "terminal.ansiBrightBlue": "#D200B0",
         "terminal.ansiBrightMagenta": "#F4009E",
         "terminal.ansiBrightCyan": "#F50082",
-        "terminal.ansiBrightWhite": "#FF0073",
-        "terminal.integrated.gpuAcceleration": "off",
-        "terminal.integrated.fontFamily": "FIraCode Nerd Font"
+        "terminal.ansiBrightWhite": "#FF0073"
     },
+
+    // Fonts (must be top-level, not inside colorCustomizations)
+    "editor.fontFamily": "FiraCode Nerd Font Mono, Menlo, monospace",
+    "editor.fontLigatures": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.rulers": [
+        80
+    ],
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.gpuAcceleration": "on",
 
     // "editor.tokenColorCustomizations": {
     //     "textMateRules": [
@@ -105,12 +109,12 @@
 
     // Cusom css
     "vscode_custom_css.imports": [
-        "file:///Users/anto/.config/code/custom.css"
+        "file://${userHome}/.config/code/custom.css"
     ],
     "github.copilot.enable": {
         "*": true,
         "yaml": false,
         "plaintext": true,
         "markdown": false
-    },
+    }
 }

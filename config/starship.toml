@@ -72,9 +72,9 @@ style = "bold bg:#444444 fg:yellow"
 
 [battery]
 disabled = false
-full_symbol = ""
-charging_symbol = ""
-discharging_symbol = ""
+full_symbol = "󰁹"
+charging_symbol = "󰂄"
+discharging_symbol = "󰁾"
 format = "[[](bg:#555555 fg:#333333)$symbol$percentage[](bg:#333333 fg:#555555)]($style)"
 [[battery.display]]
 threshold = 10
@@ -90,7 +90,7 @@ vicmd_symbol = "[[](fg:green bg:#333333)](bg:green fg:#000000)"
 [cmake]
 disabled = false
 format = "[[](bg:#444444 fg:#333333)[via](bg:#444444 fg:white) $symbol$version[](bg:#333333 fg:#444444)]($style)"
-symbol = "喝 "
+symbol = " "
 style = "bg:#444444 fg:blue"
 
 [cmd_duration]
@@ -130,7 +130,7 @@ fish_style_pwd_dir_length = 0
 use_logical_path = true
 format = "[[](bg:#555555 fg:#333333)$path [](bg:#333333 fg:#555555)]($style)([[](bg:#555555 fg:#333333)$read_only[](bg:#333333 fg:#555555)]($read_only_style))"
 style = "italic bg:#555555 fg:cyan"
-read_only = ""
+read_only = "󰌾"
 read_only_style = "bg:#555555 fg:red"
 truncation_symbol = ""
 
@@ -146,7 +146,7 @@ only_with_files = true
 
 [dotnet]
 disabled = false
-format = "[[](bg:#444444 fg:#333333)$symbol$version( ﯑ $tfm)[](bg:#333333 fg:#444444)]($style)"
+format = "[[](bg:#444444 fg:#333333)$symbol$version(  $tfm)[](bg:#333333 fg:#444444)]($style)"
 symbol = "•NET "
 style = "bg:#444444 fg:blue"
 heuristic = true
@@ -278,7 +278,7 @@ disabled = true
 threshold = 75
 format = "[[](bg:#555555 fg:#333333)[via](bg:#555555 fg:white) $symbol$ram( | $swap)[](bg:#333333 fg:#555555)]($style)"
 style = "bold dimmed bg:#555555 fg:white"
-symbol = " "
+symbol = "󰍛 "
 
 # Mercurial
 [hg_branch]
@@ -292,7 +292,7 @@ truncation_symbol = "…"
 [nim]
 disabled = false
 format = "[[](bg:#444444 fg:#333333)[via](bg:#444444 fg:white) $symbol$version[](bg:#333333 fg:#444444)]($style)"
-symbol = " "
+symbol = " "
 style = "bg:#444444 fg:yellow"
 
 [nix_shell]
@@ -318,7 +318,7 @@ style = "bg:#444444 fg:yellow"
 [package]
 disabled = false
 format = "[[](bg:#444444 fg:#333333)[is](bg:#444444 fg:white) $symbol$version[](bg:#333333 fg:#444444)]($style)"
-symbol = " "
+symbol = "󰏓 "
 style = "bg:#444444 fg:208"
 display_private = false
 
@@ -379,7 +379,7 @@ style = "bold dimmed bg:#444444 fg:blue"
 [swift]
 disabled = false
 format = "[[](bg:#444444 fg:#333333)[via](bg:#444444 fg:white) $symbol$version[](bg:#333333 fg:#444444)]($style)"
-symbol = "ﯣ "
+symbol = " "
 style = "bg:#444444 fg:202"
 
 [status]
@@ -391,7 +391,7 @@ style = "bold bg:#555555 fg:red"
 [terraform]
 disabled = false
 format = '[[](bg:#444444 fg:#333333)[via](bg:#444444 fg:white) $symbol\($workspace\)[](bg:#333333 fg:#444444)]($style)'
-symbol = "ﰉ "
+symbol = " "
 style = "bold bg:#444444 fg:105"
 
 [time]
