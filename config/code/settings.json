@@ -1,15 +1,20 @@
 {
     "workbench.colorCustomizations": {
+        // Acgivity Bar
         "activityBar.background": "#02041E",
         "sideBar.background": "#02041E",
         "activityBar.foreground": "#CFBACD",
         // "activityBarBadge.background": "#ff0000",
         "activityBarBadge.foreground": "#CFBACD",
+
+        //Title Bar
         "titleBar.activeBackground": "#02041E",
         "titleBar.border": "#7c00ff",
         "titleBar.activeForeground": "#A2679D",
         // "titleBar.inactiveBackground": "#02041E",
         // "titleBar.inactiveForeground": "#ffffff",
+
+        // Srtatus Bar
         "statusBar.background": "#141414",
         "statusBar.foreground": "#A2679D",
         // "statusBar.debuggingBackground": "#1e1e1e",
@@ -31,6 +36,8 @@
         // "statusBarItem.debuggingForeground": "#ffffff",
         // "statusBarItem.prominentHoverBackground": "#ff0000",
         // "statusBarItem.prominentForeground": "#ffffff",
+        
+        // Editor Header
         "editorGroupHeader.tabsBackground": "#02041E",
         "editorGroupHeader.tabsBorder": "#7c00ff",
         "editorGroupHeader.noTabsBackground": "#02041E",
@@ -38,17 +45,26 @@
         "editorGroup.border": "#7c00ff",
         "editorGroup.dropBackground": "#02041E",
         "editorGroup.emptyBackground": "#1e1e1e",
+        // Editor
         // "editor.lineHighlightBackground": "#54044E",
         "editor.lineHighlightBorder": "#54044E",
         "editor.background": "#02041E",
         "editor.foreground": "#CFBACD",
         "editorRuler.foreground": "#54044E",
+        "editor.inlineSuggest.enabled": true,
+        "editor.rulers": [
+            80
+        ],
+
+        // Window
         "contrastActiveBorder": "#7c00ff",
         "contrastBorder": "#7c00ff",
         "panel.border": "#7c00ff",
         // "tab.border": "#ff0000"
         //"tab.activeBorder": "#ff0000"
         "window.activeBorder": "#7c00ff",
+        
+        // Terminal
         "terminal.background": "#02041E",
         "terminal.selectionBackground": "#242424",
         "terminal.selectionForeground": "#A2679D",
@@ -71,9 +87,10 @@
         "terminal.ansiBrightMagenta": "#F4009E",
         "terminal.ansiBrightCyan": "#F50082",
         "terminal.ansiBrightWhite": "#FF0073",
-
-
+        "terminal.integrated.gpuAcceleration": "off",
+        "terminal.integrated.fontFamily": "FIraCode Nerd Font"
     },
+
     // "editor.tokenColorCustomizations": {
     //     "textMateRules": [
     //         {
@@ -85,19 +102,15 @@
     //         },
     //     ]
     // },
+
+    // Cusom css
     "vscode_custom_css.imports": [
-        "file:///path/to/custom.css",
+        "file:///Users/anto/.config/code/custom.css"
     ],
-    "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
         "*": true,
         "yaml": false,
         "plaintext": true,
         "markdown": false
     },
-    "terminal.integrated.gpuAcceleration": "off",
-    "terminal.integrated.fontFamily": "FIraCode Nerd Font",
-    "editor.rulers": [
-        80
-    ],
 }
